@@ -45,12 +45,12 @@ class ListFragment : Fragment() {
 
     //inflater menu
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.main, menu)
+        inflater.inflate(R.menu.delete_button, menu)
     }
 
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == R.id.menu_delete){
+        if (item.itemId == R.id.button_delete){
             deleteAll()
         }
         return super.onOptionsItemSelected(item)

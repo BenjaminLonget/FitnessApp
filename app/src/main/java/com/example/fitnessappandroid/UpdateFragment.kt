@@ -60,15 +60,15 @@ class UpdateFragment : Fragment() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.main, menu)
+        inflater.inflate(R.menu.delete_button, menu)
     }
 
-    // override fun onOptionsItemSelected(item: MenuItem): Boolean {
-    //    if(item.itemId == R.id.menu_delete){
-    //        deleteplan()
-    //    }
-    //    return super.onOptionsItemSelected(item)
-   // }
+     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == R.id.button_delete){
+            deleteplan()
+        }
+        return super.onOptionsItemSelected(item)
+    }
 
     private fun deleteplan() {
         val builder = AlertDialog.Builder(requireContext())

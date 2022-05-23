@@ -36,7 +36,7 @@
 
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/ButtonTest2"
+                android:id="@+id/home_button_statistics"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
                 app:layout_constraintHorizontal_weight="1"
@@ -48,15 +48,15 @@
                 android:paddingTop="10sp"
                 android:text="@string/Statistics_button_title"
                 android:textColor="#FFFFFF"
-                app:layout_constraintBottom_toBottomOf="@+id/ButtonTest"
-                app:layout_constraintEnd_toStartOf="@+id/ButtonTest"
+                app:layout_constraintBottom_toBottomOf="@+id/home_button_information"
+                app:layout_constraintEnd_toStartOf="@+id/home_button_information"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/home_button_plans"
                 app:layout_constraintVertical_bias="1.0"></androidx.appcompat.widget.AppCompatButton>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/ButtonTest"
+                android:id="@+id/home_button_information"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
                 app:layout_constraintHorizontal_weight="1"
@@ -70,8 +70,8 @@
                 android:textColor="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/ButtonTest2"
-                app:layout_constraintTop_toBottomOf="@+id/ButtonTest3"></androidx.appcompat.widget.AppCompatButton>
+                app:layout_constraintStart_toEndOf="@+id/home_button_statistics"
+                app:layout_constraintTop_toBottomOf="@+id/home_button_challenges"></androidx.appcompat.widget.AppCompatButton>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/home_button_plans"
@@ -88,13 +88,13 @@
                 android:elevation="1000dp"
                 android:text="@string/plans_button_title"
                 android:textColor="#FFFFFF"
-                app:layout_constraintEnd_toStartOf="@+id/ButtonTest3"
+                app:layout_constraintEnd_toStartOf="@+id/home_button_challenges"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_home"></androidx.appcompat.widget.AppCompatButton>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/ButtonTest3"
+                android:id="@+id/home_button_challenges"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
                 app:layout_constraintHorizontal_weight="1"
@@ -127,7 +127,7 @@
                 android:textSize="30dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ButtonTest2"
+                app:layout_constraintTop_toBottomOf="@+id/home_button_statistics"
                 app:layout_constraintVertical_bias="0.298" />
 
             <TextView

@@ -5,7 +5,7 @@
     <string name="action_settings">Settings</string>
 
     <!-- Navigation drawer header strings -->
-    <string name="nav_header_title">Fitness </string>
+    <string name="nav_header_title">Fitness Pal</string>
     <string name="nav_header_subtitle">Your personal fitness companion</string>
     <string name="nav_header_desc">Navigation header</string>
 
@@ -16,8 +16,15 @@
     <string name="menu_timer">Timer</string>
     <string name="menu_exercises">Exercises</string>
 
-
-
+    <!-- Account strings -->
+    <string name="user_name">Username</string>
+    <string name="member_id">#1234</string>
+    <string name="contact_information">Contact information</string>
+    <string name="email">Email: username@gmail.com</string>
+    <string name="telephone_number">Tlf: 1800123</string>
+    <string name="membership_status">Membership is: Active</string>
+    <string name="membership">Membership</string>
+    <string name="membership_type">Type: Diamond</string>
 
     <!-- Settings strings -->
     <string name="account_settings_header">Account settings</string>
@@ -32,17 +39,17 @@
     <string name="other_summary_off">Summary off</string>
 
     <!-- Home fragment -->
-    <string name="headline">FatPhobic!</string>
+    <string name="headline">Fitness Pal!</string>
     <string name="button_plans_title">View your exercises</string>
     <string name="button_settings_title">Settings</string>
     <string name="button_other_title">Other</string>
-    <string name="about_us_section"> FatPhobic is a groundbreaking fitness app that promises results in just a week. Your life will never be the same again and you will not be able to recognise yourself at all after using this app. In a good way, of course. \n
-        You can forget about using any other fitness app, they do not have a handle on what they are doing. Of the four buttons on the front page, only the "see your plans" button works. The rest is a feature coming in the next update. The settings fragment works, but can not change anything on the app. Also, you can not change the account fragment. You also can not make more than 1 plan yet. You can however add the exercises to your plan that you want. You can also change them by tapping on the exercise.   </string>
+    <string name="about_us_section"> Fitness Pal is a groundbreaking fitness app that promises results in just a week. Your life will never be the same again and you will not be able to recognise yourself at all after using this app. In a good way, of course. \n
+        You can forget about using any other fitness app, they do not have a handle on what they are doing. Of the four buttons on the front page, only the "see your plans" button works. The rest is a feature coming in the next update. The settings fragment works, but can not change anything on the app. Also, you can not change the account fragment. In the exercise fragment you are able to add, delete and edit exercises. The timer fragment implements a timer using a service. However, it does not work as intended. </string>
     <string name="plans_button_title">See your plans!</string>
     <string name="information_button_title">Information</string>
     <string name="challenges_button_title">Challenges</string>
     <string name="Statistics_button_title">Statistics and progress</string>
-    <string name="about_us_title">About FatPhobic</string>
+    <string name="about_us_title">About Fitness Pal</string>
 
     <!-- Timer fragment -->
     <string name="timer_start">Start</string>
