@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">FitnessAppAndroid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation drawer header strings -->
+    <string name="nav_header_title">Fitness </string>
+    <string name="nav_header_subtitle">Your personal fitness companion</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- Mobile navigation strings -->
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_timer">Timer</string>
+    <string name="menu_exercises">Exercises</string>
+
+
+
+
+    <!-- Settings strings -->
+    <string name="account_settings_header">Account settings</string>
+    <string name="layout_header">Layout</string>
+    <string name="more_settings_settings_header">More settings</string>
+    <string name="username_title">Your username</string>
+    <string name="more_settings_title">More settings</string>
+    <string name="theme_title">Dark mode</string>
+    <string name="other_title">Other</string>
+    <string name="other_summary_on">Summary on
+    </string>
+    <string name="other_summary_off">Summary off</string>
+
+    <!-- Home fragment -->
+    <string name="headline">FatPhobic!</string>
+    <string name="button_plans_title">View your exercises</string>
+    <string name="button_settings_title">Settings</string>
+    <string name="button_other_title">Other</string>
+    <string name="about_us_section"> FatPhobic is a groundbreaking fitness app that promises results in just a week. Your life will never be the same again and you will not be able to recognise yourself at all after using this app. In a good way, of course. \n
+        You can forget about using any other fitness app, they do not have a handle on what they are doing. Of the four buttons on the front page, only the "see your plans" button works. The rest is a feature coming in the next update. The settings fragment works, but can not change anything on the app. Also, you can not change the account fragment. You also can not make more than 1 plan yet. You can however add the exercises to your plan that you want. You can also change them by tapping on the exercise.   </string>
+    <string name="plans_button_title">See your plans!</string>
+    <string name="information_button_title">Information</string>
+    <string name="challenges_button_title">Challenges</string>
+    <string name="Statistics_button_title">Statistics and progress</string>
+    <string name="about_us_title">About FatPhobic</string>
+
+    <!-- Timer fragment -->
+    <string name="timer_start">Start</string>
+    <string name="timer_stop">Stop</string>
+    <string name="timer_reset">Reset</string>
+
+</resources>
+

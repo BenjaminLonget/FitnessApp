@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fitnessappandroid.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.fitnessappandroid.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@xml/root_preferences">
+        <action
+            android:id="@+id/action_nav_settings_to_nav_account"
+            app:destination="@id/nav_account" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.fitnessappandroid.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" >
+    </fragment>
+
+    <activity
+        android:id="@+id/nav_timer"
+        android:name="com.example.fitnessappandroid.TimerActivity"
+        android:label="@string/menu_timer"
+        tools:layout="@layout/activity_timer">
+    </activity>
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.fitnessappandroid.list.ListFragment"
+        android:label="@string/menu_exercises"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.fitnessappandroid.AddFragment"
+        android:label="Add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.example.fitnessappandroid.UpdateFragment"
+        android:label="Update"
+        tools:layout="@layout/fragment_update" >
+        <action
+            android:id="@+id/action_updateFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <argument
+            android:name="currentPlan"
+            app:argType="com.example.fitnessappandroid.model.Plan" />
+    </fragment>
+</navigation>

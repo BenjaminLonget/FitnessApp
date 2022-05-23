@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory app:title="@string/account_settings_header">
+
+        <EditTextPreference
+            app:key="username"
+            app:title="@string/username_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="actual_name"
+            app:title="Your actual name"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Liste">
+
+        <ListPreference
+            app:defaultValue="Test1"
+            app:entries="@array/Test"
+            app:entryValues="@array/Test"
+            app:key="test"
+            app:title="En liste"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/layout_header">
+
+        <SwitchPreferenceCompat
+            app:key="dark_mode"
+            app:title="@string/theme_title" />
+
+        <SwitchPreferenceCompat
+            app:key="other"
+            app:title="@string/other_title"
+            app:summaryOff="Its off"
+            app:summaryOn="Its on"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
